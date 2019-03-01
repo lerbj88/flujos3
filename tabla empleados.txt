@@ -1,0 +1,20 @@
+create table ResponsablesFlujos
+(
+	FiNumEmpleado int not null,
+	FcNombre varchar(150),
+	FcCorreo varchar(50),
+	FiCelular bigint
+)
+go
+
+
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (999999, 'Roberto Ivan Meza Trillo', 'rimeza@bancoazteca.com.mx', null);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (991887, 'Gilberto Antonio Alatorre Cortez', 'galatorre@elektra.com.mx', null);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (991495, 'Erika Rocio Lira Gordiano', 'elirag@elektra.com.mx', null);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (977816, 'Alfredo Ramírez Reyes', 'aramirez@elektra.com.mx', 5585373165);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (965894, 'Juan Arevalo Carranza', 'jarevalo@bancoazteca.com.mx', 5525588966);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (961616, 'Carlos Alberto Del Aguila Henriquez', 'cdelagulia@elektra.com.mx', 5530170943);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (961367, 'Lilia Morales Cruz', 'lmcruz@elektra.com.mx', 5530171046);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (960428, 'Guillermo Platas Lopez', 'gplatas@elektra.com.mx', 5510822120);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (959814, 'Francisco Hernandez Vazquez', 'fhernandezv@elektra.com.mx', 5530171016);
+INSERT INTO belajar.dbo.ResponsablesFlujos (FiNumEmpleado, FcNombre, FcCorreo, FiCelular) VALUES (944260, 'Octavio Nonell Bautista', 'ononell@bancoazteca.com.mx', 5530170989);
