@@ -12,3 +12,4 @@ public interface ResponsablesflujosDao {
     public Responsablesflujos editarResponsable(Integer finumempleado);
     void eliminarResponsable(Integer finumempleado);
 }
+
